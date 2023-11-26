@@ -22,7 +22,6 @@ from keras.api._v2.keras.models import load_model
 from keras.api._v2.keras.callbacks import LearningRateScheduler,TensorBoard, ModelCheckpoint
 from keras.api._v2.keras.optimizers import Adam
 
-# how to check the memory growth of the cpu
 data_dir = 'Data'
 image_exts = ['png','jpg']
 #print(os.listdir(data_dir))# return every folder of the specidifed folder
